@@ -1,6 +1,6 @@
          #joao{
         color: black;
-        margin: 10px;
+        margin: 40px;
         }
         .pão{
             text-decoration: none;
@@ -53,4 +53,10 @@
         }
         .login-form button:hover {
             background-color: #f7d1ff;
+        }
+
+        .Imagem{
+            display: flex;
+            width: 30%;
+            height: 5%;
         }
