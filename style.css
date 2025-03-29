@@ -6,6 +6,10 @@
             text-decoration: none;
             margin: 10px;
             color: black;
+            width: 100%;
+            height: 150px;
+            padding-right: 60px;
+
         }
         li
         {
@@ -15,6 +19,7 @@
         .nav-link{
             color: black;
         text-decoration: none;
+                        display: inline-block;
         }
         #aaa{
             text-decoration: none;
@@ -34,13 +39,21 @@
             max-width: 300px;
             margin: 20px;
             padding: 20px;
+                    display: inline-block;
+        vertical-align: top;
+        width: 45%;
 
         }
         .login-form input[type="email"],
-        .login-form input[type="password"] {
+        .login-form input[type="password"],
+        .login-form input[type="text"],
+        .login-form input[type="number"]
+        {
+
             width: 100%;
             padding: 10px;
             margin: 10px 0;
+            gap: 10px;
 
         }
         .login-form button {
@@ -50,6 +63,7 @@
             color: white;
             border: none;
             cursor: pointer;
+            border-radius: 30px;
         }
         .login-form button:hover {
             background-color: #f7d1ff;
@@ -57,6 +71,38 @@
 
         .Imagem{
             display: flex;
+            flex-direction: left;
+            justify-content: left;
             width: 30%;
-            height: 5%;
+            height: 80%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 30%;
+            margin-top: -8%;
+            border-radius: 20px;
+             display: inline-block;
         }
+            #ww{
+                color: #af1ddb;
+                text-align: left;
+                margin-right: auto;
+            }
+            input{
+                background-color: #f1dff7;
+                border:cadetblue ;
+                border-radius: 40px;
+                width: 200% !important;
+            }
+            .ill{
+                  display: flex;
+            flex-direction: left;
+            justify-content: left;
+            width: 30%;
+            height: 80%;
+            display: inline-block;
+            vertical-align: top;
+            margin-left: 45%;
+            margin-top: -8%;
+            background-color: rgb(206, 44, 255);
+            border-radius: 20px;
+            }
